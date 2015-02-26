@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem "sinatra"
 gem "cucumber-sinatra"
-gem "dm-sqlite-adapter"
+gem "dm-postgres-adapter"
 gem "datamapper"
 
 group :test do
