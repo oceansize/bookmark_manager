@@ -1,6 +1,9 @@
 ENV['RACK_ENV'] = 'test'
 
 require 'server'
+require 'capybara/rspec'
+
+Capybara.app = BookmarkManager
 
 RSpec.configure do |config|
 
