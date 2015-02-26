@@ -15,6 +15,7 @@ GEM
       templater (>= 1.0.0)
     data_objects (0.10.15)
       addressable (~> 2.1)
+    database_cleaner (1.4.0)
     datamapper (1.2.0)
       dm-aggregates (~> 1.2.0)
       dm-constraints (~> 1.2.0)
@@ -112,6 +113,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   cucumber-sinatra
+  database_cleaner
   datamapper
   dm-postgres-adapter
   launchy
